@@ -28,3 +28,10 @@ LibraSphere is an Online Library System crafted to cultivate proficiency in mode
 - **GIT/GitHub**: Managing version control and facilitating collaboration.
 - **MS SQL**: Managing relational databases efficiently.
 - **Testing**: Employing JUnit and Mockito for meticulous unit and integration tests.
+
+application.properties:
+spring.application.name=LibraSphere
+spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=libra
+spring.datasource.username=username
+spring.datasource.password=password
+spring.datasource.driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver
